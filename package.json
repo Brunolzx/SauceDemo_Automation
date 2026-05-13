@@ -1,0 +1,22 @@
+{
+  "name": "cypress_pom_saucedemo",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for SauceDemo using Page Object Model",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:login": "cypress run --spec cypress/e2e/login.cy.js",
+    "cy:run:logout": "cypress run --spec cypress/e2e/logout.cy.js",
+    "cy:run:cart": "cypress run --spec cypress/e2e/cart.cy.js",
+    "cy:run:checkout": "cypress run --spec cypress/e2e/checkout.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
